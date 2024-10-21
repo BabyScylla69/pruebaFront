@@ -5,7 +5,7 @@ import Baja from '../pages/Baja'
 import Consulta from '../pages/Consulta'
 
 const Router = () => (
-    <BrowserRouter basename='/pruebaFront'>
+    <BrowserRouter>
         <Routes>   
             <Route index element={<Home/>} />
             <Route path="/Alta" element={<Alta/>} />  
